@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B95D92571408200C4585A /* Localizing.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B95DB2571408200C4585A /* Localizing.strings */; };
 		4CEC89FA256E422C005FADE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC89F9256E422C005FADE5 /* AppDelegate.swift */; };
 		4CEC89FC256E422C005FADE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC89FB256E422C005FADE5 /* SceneDelegate.swift */; };
 		4CEC89FE256E422C005FADE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC89FD256E422C005FADE5 /* ViewController.swift */; };
@@ -39,6 +40,9 @@
 		4C1B95CD25713DD500C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4C1B95CE25713DDB00C4585A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		4C1B95CF25713DDB00C4585A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4C1B95DA2571408200C4585A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizing.strings; sourceTree = "<group>"; };
+		4C1B95DF2571409D00C4585A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizing.strings; sourceTree = "<group>"; };
+		4C1B95E02571409E00C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizing.strings; sourceTree = "<group>"; };
 		4CEC89F6256E422C005FADE5 /* Localizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEC89F9256E422C005FADE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEC89FB256E422C005FADE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1B95D82571406600C4585A /* Localizing */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B95DB2571408200C4585A /* Localizing.strings */,
+			);
+			path = Localizing;
+			sourceTree = "<group>";
+		};
 		4CEC89ED256E422C005FADE5 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		4CEC89F8256E422C005FADE5 /* Localizing */ = {
 			isa = PBXGroup;
 			children = (
+				4C1B95D82571406600C4585A /* Localizing */,
 				4CEC89F9256E422C005FADE5 /* AppDelegate.swift */,
 				4CEC89FB256E422C005FADE5 /* SceneDelegate.swift */,
 				4CEC89FD256E422C005FADE5 /* ViewController.swift */,
@@ -239,6 +252,7 @@
 			files = (
 				4CEC8A06256E422E005FADE5 /* LaunchScreen.storyboard in Resources */,
 				4CEC8A03256E422E005FADE5 /* Assets.xcassets in Resources */,
+				4C1B95D92571408200C4585A /* Localizing.strings in Resources */,
 				4CEC8A01256E422C005FADE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +316,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4C1B95DB2571408200C4585A /* Localizing.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1B95DA2571408200C4585A /* en */,
+				4C1B95DF2571409D00C4585A /* ja */,
+				4C1B95E02571409E00C4585A /* ko */,
+			);
+			name = Localizing.strings;
+			sourceTree = "<group>";
+		};
 		4CEC89FF256E422C005FADE5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
