@@ -35,10 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C1B95BF25713BBD00C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
-		4C1B95C025713BBD00C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		4C6F906725713B64001B56A2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		4C6F906B25713B64001B56A2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4C1B95CC25713DD500C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		4C1B95CD25713DD500C4585A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4C1B95CE25713DDB00C4585A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		4C1B95CF25713DDB00C4585A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		4CEC89F6256E422C005FADE5 /* Localizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEC89F9256E422C005FADE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEC89FB256E422C005FADE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -217,8 +217,8 @@
 			knownRegions = (
 				en,
 				Base,
-				ja,
 				ko,
+				ja,
 			);
 			mainGroup = 4CEC89ED256E422C005FADE5;
 			productRefGroup = 4CEC89F7256E422C005FADE5 /* Products */;
@@ -306,8 +306,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				4CEC8A00256E422C005FADE5 /* Base */,
-				4C6F906725713B64001B56A2 /* ja */,
-				4C1B95BF25713BBD00C4585A /* ko */,
+				4C1B95CC25713DD500C4585A /* ko */,
+				4C1B95CE25713DDB00C4585A /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -316,8 +316,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				4CEC8A05256E422E005FADE5 /* Base */,
-				4C6F906B25713B64001B56A2 /* ja */,
-				4C1B95C025713BBD00C4585A /* ko */,
+				4C1B95CD25713DD500C4585A /* ko */,
+				4C1B95CF25713DDB00C4585A /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
