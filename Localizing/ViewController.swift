@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        myLabel.text = String(format: NSLocalizedString("Hello", comment: ""))
         
     }
 

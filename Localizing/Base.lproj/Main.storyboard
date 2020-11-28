@@ -30,6 +30,9 @@
                             <constraint firstItem="zvl-81-rYZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ude-GC-zyp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myLabel" destination="zvl-81-rYZ" id="9eh-t1-ZDR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
